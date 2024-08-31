@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <h1>My Awesome Product</h1>
+                <ul>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <section class="hero">
+            <div class="container">
+                <h2>Transform Your Life with Our Product</h2>
+                <p>Discover how our product can help you achieve your goals and improve your life.</p>
+                <a href="#contact" class="cta-button">Get Started</a>
+            </div>
+        </section>
+    </header>
+
+    <section id="features">
+        <div class="container">
+            <h2>Features</h2>
+            <div class="feature">
+                <h3>Feature One</h3>
+                <p>Describe the first feature of your product here. Highlight its benefits and how it can help the user.</p>
+            </div>
+            <div class="feature">
+                <h3>Feature Two</h3>
+                <p>Describe the second feature of your product here. Explain how it stands out from the competition.</p>
+            </div>
+            <div class="feature">
+                <h3>Feature Three</h3>
+                <p>Describe the third feature of your product here. Show how it solves a problem or adds value.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" required></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 My Awesome Product. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
